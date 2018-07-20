@@ -1,0 +1,22 @@
+.router {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 0;
+  &__nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 24px;
+  }
+}
+
+.main {
+  height: 100px;
+  background: #f3f3f3;
+  margin-top: 50px;
+}

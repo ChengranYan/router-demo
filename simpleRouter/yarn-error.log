@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/Cellar/node/9.8.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add babel-core -D
+
+PATH: 
+  /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/hezhiqiang/Studio/onion/exercise_frontend/simpleRouter/node_modules/.bin:/Users/hezhiqiang/development/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hezhiqiang/development/flutter/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "simpleRouter",
+    "version": "1.0.0",
+    "description": "## hash 红宝书P394",
+    "main": "gulpfile.js",
+    "scripts": {
+      "hash": "parcel hash/index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "node-sass": "^4.9.2"
+    },
+    "devDependencies": {
+      "babel-plugin-transform-class-properties": "^6.24.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "chalk@^1.1.1" required by "node-sass@^4.9.2" on the "npm" registry.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at PackageRequest.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:36274:17)
+      at Generator.throw (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:111:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:118:7)
